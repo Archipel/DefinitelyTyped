@@ -116,7 +116,7 @@ declare namespace google.maps {
         /** The initial display options for the Map type control. */
         mapTypeControlOptions?: MapTypeControlOptions;
         /** The initial Map mapTypeId. Defaults to ROADMAP. */
-        mapTypeId?: MapTypeId;
+        mapTypeId?: MapTypeId|string;
         /**
          * The maximum zoom level which will be displayed on the map. If omitted, or set
          * to null, the maximum zoom from the current map type is used instead. Valid
